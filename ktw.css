@@ -70,7 +70,7 @@ margin-bottom: 10px;
 
 
 @media screen and (max-width: 600px) {
-.nameintro {font-size: 40px;}
+.nameintro {font-size: 40px; line-height: 40px;}
 .linkboxes {flex-direction: column-reverse;}
 .linkage {margin: auto; margin-bottom: 30px;}
 }
