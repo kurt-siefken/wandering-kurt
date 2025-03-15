@@ -1,0 +1,82 @@
+
+
+body {
+	font-family: 'Gabarito', sans-serif;
+	font-size: 20px;
+	background-color: #dee1dd;
+	border: 0px solid red;
+	margin: 0px;
+	padding: 0px;
+	color: #333; 
+}
+
+
+a {
+	text-decoration: none;
+	color: #2f575d;
+}
+
+
+.pagestructure {
+display: flex;
+justify-content: center;
+align-items: center;
+border: 0px solid green;
+height: 100%;
+}
+
+
+.intro {
+text-align: center;
+}
+
+.nameintro {
+font-family: 'Bowlby One SC', sans-serif;
+font-size: 50px;
+display: block;
+line-height: 80px;
+}
+
+
+
+
+.linkage {
+margin-left: 30px;
+}
+
+.linkage a {
+margin-bottom: 10px;
+display: block;
+}
+
+
+
+hr {
+border-top: 1px solid #aaaaaa;
+}
+
+
+.linkboxes {
+display: flex;
+justify-content: start;
+}
+
+
+.linkboxes img {
+width: 300px;
+margin-bottom: 10px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+.nameintro {font-size: 40px;}
+.linkboxes {flex-direction: column-reverse;}
+.linkage {margin: auto; margin-bottom: 30px;}
+}
+
+
+
+
+
+
